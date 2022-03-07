@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <section class="intro-section">
+      <div class="intro-section__content">
+        <h1 class="intro-section__title">
+          Learn to code by watching others
+        </h1>
+        <p class="intro-section__desc">
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but
+          understanding how developers think is invaluable.
+        </p>
+      </div>
+      <div class="intro-section__fields">
+        <div class="intro-section__term">
+          <p>Try it free 7 days <span class="monthly-payment">then $20/mo. thereafter</span></p>
+        </div>
+        <div class="form form-container">
+          <form id="form">
+            <div class="row">
+              <input id="form__first-name" class="form__field form__first-name " placeholder="first name">
+              <small class="form__message"></small>
+            </div>
+            <div class="row">
+              <input id="form__last-name" class="form__field form__last-name" placeholder="last name">
+              <small class="form__message"></small>
+            </div>
+            <div class="row">
+              <input id="form__email-address" class="form__field form__email-address" placeholder="Email Address">
+              <small class="form__message"></small>
+            </div>
+            <div class="row">
+              <input id="form__Password" class="form__field form__Password" placeholder="Password">
+              <small class="form__message"></small>
+            </div>
+            <button class="form__submit" type="submit">CLAIM YOUR FREE TRIAL</button>
+          </form>
+          <p class="form__guide">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+        </div>
+
+      </div>
+    </section>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
