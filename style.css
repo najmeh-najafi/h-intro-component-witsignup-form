@@ -223,6 +223,7 @@
   .no-valid{
     border: 2px solid var(--color-spesial-red);
   background: url(images/icon-error.svg) no-repeat right 27px top 16px;
+  padding: 15px 60px 15px 32px;
   }
   .no-valid ~ .form__message{
     display: block;
