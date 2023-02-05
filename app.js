@@ -6,8 +6,8 @@ form.addEventListener("submit", (e) => {
     e.preventDefault();
 })
 passwordInput.addEventListener("blur",(e)=>{
-    alert(e.target.value)
+    e.target.value=p2e(e.target.value)
     alert(isNaN(e.target.value))
-    alert(p2e(e.target.value))
+   
 })
   
